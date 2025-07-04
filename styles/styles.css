@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+};
+body{
+    font-family: 'Droid Sans Bold', sans-serif;
+};
+.header{
+    display: flex;
+    width: 100%;
+}
+.menu{
+    display: flex;
+    background-color: #1e172f;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    height: 64px;
+}
+.logo{
+    box-sizing: border-box;
+    margin-left: 13%;
+    height: 100%;
+}
+.menu1 li{
+    height: 35%;
+    width: 10%;
+    color: rgb(129, 131, 133);
+    box-sizing: border-box;
+    font-size: 109%;
+    flex-wrap: nowrap;
+    margin-top: 0.4%;
+}
+li:hover{
+    color:rgb(255, 255, 255);
+}
+.menu1{
+    display: flex;
+    margin-right: 15%;
+    box-sizing: border-box;
+    list-style: none;
+    width: 100%;
+    justify-content:right;
+    align-items:center;
+    justify-items:center;
+}
+.use{
+    margin-right: 2%;
+}
+.descarga{
+    box-sizing: border-box;
+    height: 73%;
+    width: 15%;
+    font-size: 103%;
+    border-radius:4%;
+    border: 0;
+    color: aliceblue;
+    background: linear-gradient(90deg,#883fd5,#0772c0);
+}
+.descarga:hover{
+    transform: scale(1.041);
+}
+/*Fin de header*/
+/*Inicii de body*/
+.pc{
+    display: inline-flex;
+    width: 100%;
+}
+.product{
+    background-color: rgb(29, 13, 54);
+    width: 49.7%;
+    align-content: center;
+    justify-items: center;
+}
+.desca:hover{
+    transform: scale(1.041);
+}
+.carac:hover{
+    transform: scale(1.041);
+}
+.page{
+    margin-top: 12%;
+    margin-bottom: 12%;
+    padding-left: 27%;
+}
+.p1{
+    line-height: 110%;
+    font-size: 450%;
+    color: white;
+}
+.p2{
+    margin-top: 7%;
+    font-size: 150%;
+    color: white;
+}
+.des{
+    margin-top: 9%;
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 4.2%;
+    width: fit-content;
+}
+.desca{
+    border-radius: 12% solid;
+    align-items: center;
+    justify-items: center;
+    margin: 4px;
+    padding: 7px 24px 22px;
+    height: 34px;
+    color:rgb(207, 5, 123);
+}
+.carac{
+    border-radius: 5%;
+    height: 34px;
+    padding: 7px 30px 22px;
+    margin: 4px;
+    color: white;
+    background-color: #1d0d36;
+    border: 2px solid rgb(255, 255, 255);
+}
+.cell{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 50.3%;
+    height: 640px;
+    background-image: url(../assets/hojasFondo.jpg);
+    background-size: 178%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+.capa{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(29, 13, 54, 0.4542030);
+}
+.cel{
+    position:relative;
+    height: 70%;
+    margin-right: 28%;
+    margin-top:11%;
+    filter: brightness(110%);
+}
+.fo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.dos{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.comp{
+    width: 50%;
+}
+.compp{
+    height: 120px;
+}
